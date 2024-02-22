@@ -1,0 +1,7 @@
+Em python aprendi o if, else e o elif.
+Em python aprendi o for e o while.
+Em python tambem vi range(), title(), open().
+Em python o with abre e fecha o arquivo.
+Em python fiz exercícios sobre listas e dicionários.
+Em python podemos trabalhar leitura e armazenamento de dados.
+Em Python podemos ordenar listas e fatia-las tambem. 
