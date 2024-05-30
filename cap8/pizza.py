@@ -13,3 +13,6 @@ def maker_pizza(size, *toppingss):
 
 maker_pizza(16, 'clabreza')
 maker_pizza(12, 'cogumelos', 'azeitonas', 'molho pomodoro')
+
+# *toppings: esse parâmetro agrupa tantos argumentos
+# quantos forem fornecidos na linha de chamada.

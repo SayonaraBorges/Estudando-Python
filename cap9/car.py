@@ -6,7 +6,8 @@ class Car():
         self.model = model
         self.year = year
         self.odometer_reading = 0
-        
+#__init__() cria instâncias de suas classes com os 
+#atributos específicos que desejamos ter. 
 
     def get_descriptive_name(self):
         """Devolve um nome descritivo, formatado de modo elegante."""
