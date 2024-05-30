@@ -4,6 +4,7 @@ for prato in pratos:
     print(prato.title())
 
 #pratos[2] = 'camarão a grega'
+print('\n')
 
 pratos = ('bife acebolado', 'a parmegiana', 'camarão a grega', 'feijoada', 'salpicão')
 print('Agora nos temos: ')
