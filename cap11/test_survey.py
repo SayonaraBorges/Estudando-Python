@@ -19,6 +19,6 @@ class TestAnonmyousSurvey(unittest.TestCase):
         for response in responses: 
             my_survey.store_response(response)
             for response in responses:
-                self.assertIn(response, my_survey.response)
+                self.assertIn(response, my_survey.responses)
 
 unittest.main() 
