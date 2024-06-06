@@ -7,7 +7,7 @@ class CidadesTestCase(unittest.TestCase):
         f_cidade = formata_nome_cidade_pais('natal', 'brasil')
         self.assertEqual(f_cidade, 'Natal, Brasil')
 
-    def test_formata_nome_cidade_pais(self):
+    def test_formata_nome_cidade_pais_populacao(self):
         """Testa a função formata nome cidade e país + população."""
         f_cidade = formata_nome_cidade_pais('natal', 'brasil', '180.000')
         self.assertEqual(f_cidade, 'Natal, Brasil - população: 180.000')
