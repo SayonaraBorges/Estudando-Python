@@ -18,6 +18,7 @@ conhecido_2 = {
     'ultimo_nome':'Sucar',
     'sexo': 'F',
 }
+#dicionário
 conhecido_3 = {
     'primeiro_nome': 'Bibiane',
     'idade': 57,
@@ -29,6 +30,7 @@ conhecido_3 = {
     'sexo': 'F',
 }
 
+#lista
 people = [ ]
 people.append(conhecido_1)
 people.append(conhecido_2)
