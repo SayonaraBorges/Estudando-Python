@@ -10,6 +10,8 @@ response_dict = r.json()
 print("Total repositories:", response_dict['total_count']) 
 
 # Explora informações sobre os repositórios
+# O valor associado a 'items' é uma lista que contém vários dicionários,
+# cada um contendo dados sobre um repositório Python individual.
 repo_dicts = response_dict['items'] 
 print("Repositories returned:", len(repo_dicts)) 
 

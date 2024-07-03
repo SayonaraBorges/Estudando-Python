@@ -19,4 +19,4 @@ for repo_dict in repo_dicts:
     print('Owner:', repo_dict['owner']['login']) 
     print('Stars:', repo_dict['stargazers_count']) 
     print('Repository:', repo_dict['html_url']) 
-    print('Description:', repo_dict['description'])
+    #print('Description:', repo_dict['description']) -gerando erro-

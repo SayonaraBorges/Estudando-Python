@@ -7,6 +7,7 @@ r = requests.get(url)
 print("Status code:", r.status_code)
 
 # Processa informações sobre cada artigo submetido
+# convertemos o texto da resposta em uma lista Python
 submission_ids = r.json()
 submission_dicts = [] 
 
@@ -20,8 +21,9 @@ for submission_id in submission_ids[:30]:
                         'link': 'http://news.ycombinator.com/item?id='+ str(submission_id),
                         'comments': response_dict.get('descendants', 0) } 
     submission_dicts.append(submission_dict)
+    # itemgetter: ordenar a lista de dicionários de acordo com o número de comentários.
     submission_dicts = sorted(submission_dicts, key=itemgetter('comments'), reverse=True)
-    
+
     for submission_dict in submission_dicts: 
         print("\nTitle:", submission_dict['title']) 
         print("Discussion link:", submission_dict['link']) 
